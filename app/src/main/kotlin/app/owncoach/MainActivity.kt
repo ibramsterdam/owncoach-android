@@ -9,12 +9,12 @@ import dev.hotwire.navigation.navigator.NavigatorConfiguration
 class MainActivity : HotwireActivity() {
 
     private val tabConfigs = listOf(
-        TabConfig(R.id.tab_food,      R.id.nav_host_food,      "https://owncoach.app/foods"),
-        TabConfig(R.id.tab_dashboard, R.id.nav_host_dashboard, "https://owncoach.app/dashboard"),
-        TabConfig(R.id.tab_me,        R.id.nav_host_me,        "https://owncoach.app/user")
+        TabConfig(R.id.tab_food,      R.id.nav_host_food,      "https://owncoach.app/"),
+        TabConfig(R.id.tab_dashboard, R.id.nav_host_dashboard, "https://owncoach.app/"),
+        TabConfig(R.id.tab_me,        R.id.nav_host_me,        "https://owncoach.app/")
     )
 
-    private var currentTabId: Int = R.id.tab_food
+    private var currentTabId: Int = R.id.tab_dashboard
 
     override fun onCreate(savedInstanceState: Bundle?) {
         // Switch from splash theme to real theme before layout inflates
@@ -23,7 +23,7 @@ class MainActivity : HotwireActivity() {
         setContentView(R.layout.activity_main)
 
         if (savedInstanceState == null) {
-            showTab(R.id.tab_food)
+            showTab(R.id.tab_dashboard)
         }
 
         findViewById<BottomNavigationView>(R.id.bottom_nav)
