@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Coffee cup / fork icon matching the web tab bar -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M18,8 L19,8 A4,4 0 0,1 19,16 L18,16"/>
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M2,8 L18,8 L18,17 A4,4 0 0,1 14,21 L6,21 A4,4 0 0,1 2,17 Z"/>
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M6,1 L6,4"/>
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M10,1 L10,4"/>
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="?attr/colorControlNormal"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M14,1 L14,4"/>
+</vector>
