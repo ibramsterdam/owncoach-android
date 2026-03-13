@@ -17,6 +17,8 @@ class MainActivity : HotwireActivity() {
     private var currentTabId: Int = R.id.tab_food
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Switch from splash theme to real theme before layout inflates
+        setTheme(R.style.Theme_OwnCoach)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

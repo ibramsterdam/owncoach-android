@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Splash theme: shown instantly before MainActivity loads -->
+    <style name="Theme.OwnCoach.Splash" parent="Theme.OwnCoach">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
     <!-- Dark theme matching the OwnCoach web app (#000 background, Vercel blue accent) -->
     <style name="Theme.OwnCoach" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">#0070f3</item>
