@@ -2,7 +2,7 @@ package app.owncoach
 
 import android.app.Application
 import dev.hotwire.core.config.Hotwire
-import dev.hotwire.navigation.config.PathConfiguration
+import dev.hotwire.core.turbo.config.PathConfiguration
 
 class OwnCoachApplication : Application() {
     override fun onCreate() {
