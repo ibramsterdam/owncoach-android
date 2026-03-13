@@ -1,0 +1,18 @@
+[versions]
+agp = "8.3.2"
+kotlin = "1.9.23"
+coreKtx = "1.13.0"
+appcompat = "1.6.1"
+material = "1.11.0"
+hotwireNative = "1.2.6"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+hotwire-core = { group = "dev.hotwire", name = "core", version.ref = "hotwireNative" }
+hotwire-navigation-fragments = { group = "dev.hotwire", name = "navigation-fragments", version.ref = "hotwireNative" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
