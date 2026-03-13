@@ -10,6 +10,7 @@
 .cxx
 local.properties
 
-# Keystore files — never commit signing keys
+# Keystore files and signing config — never commit
 *.jks
 *.keystore
+keystore.properties
